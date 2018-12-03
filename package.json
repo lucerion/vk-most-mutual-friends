@@ -11,7 +11,9 @@
     "eslint": "eslint ."
   },
   "dependencies": {
+    "query-string": "^6.2.0",
     "react": "^16.6.3",
+    "react-cookies": "^0.1.0",
     "react-dom": "^16.6.3"
   },
   "devDependencies": {
@@ -19,6 +21,7 @@
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "dotenv-webpack": "^1.5.7",
     "eslint": "^5.9.0",
     "eslint-plugin-react": "^7.11.1",
     "html-webpack-plugin": "^3.2.0",

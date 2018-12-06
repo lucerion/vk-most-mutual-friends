@@ -4,7 +4,6 @@ import { stringify } from 'query-string';
 
 const URL = 'https://api.vk.com/method/friends.get';
 const PARAMS = {
-  order: 'name',
   fields: 'common_count',
   v: 5.92,
 };

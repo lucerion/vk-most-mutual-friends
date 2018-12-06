@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import FriendsTable from './containers/friends-table';
 import { authorize } from './api/actions/auth';
 import { parseAuthResponse, getAccessToken, setAccessToken } from './api/auth-helper';
 
-export class App extends React.Component {
+import './styles/app.css';
+
+export class App extends Component {
   componentDidMount() {
     const response = parseAuthResponse();
     if (response.accessToken) {
@@ -17,9 +20,7 @@ export class App extends React.Component {
   }
 
   render() {
-    return (
-      <div></div>
-    );
+    return <FriendsTable />;
   }
 }
 

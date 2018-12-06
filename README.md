@@ -6,8 +6,8 @@ Most mutual friends in vk.com (vkontakte)
 ## Install
 
 ```
-git clone https://github.com/lucerion/vk_most_mutual_friends.git
-cd ./vk_most_mutual_friends
+git clone https://github.com/lucerion/vk-most-mutual-friends.git
+cd ./vk-most-mutual-friends
 yarn install
 ```
 
@@ -18,4 +18,4 @@ yarn install
 
   * copy `.env.example` to `.env`. Edit `.env`
 
-  * run `npm run start` to start the app
+  * run `yarn start` to start the app

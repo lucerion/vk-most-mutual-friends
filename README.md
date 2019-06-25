@@ -18,4 +18,4 @@ yarn install
 
   * copy `.env.example` to `.env`. Edit `.env`
 
-  * run `yarn run start` to start the app
+  * run `yarn start` to start the app

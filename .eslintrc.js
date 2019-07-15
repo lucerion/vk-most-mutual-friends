@@ -25,4 +25,9 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'no-console': ['error', { 'allow': ['warn', 'error'] }],
   },
+  'settings': {
+    'react': {
+      'version': 'detect',
+    },
+  },
 };

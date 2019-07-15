@@ -34,5 +34,10 @@
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
+  },
+  "resolutions": {
+    "lodash": "^4.17.13",
+    "set-value": "^3.0.1",
+    "mixin-deep": "^2.0.1"
   }
 }

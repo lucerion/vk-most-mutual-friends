@@ -3,7 +3,7 @@
 Most mutual friends in vk.com (vkontakte)
 
 
-## Install
+## Installation
 
 ```
 git clone https://github.com/lucerion/vk-most-mutual-friends.git
@@ -12,10 +12,13 @@ yarn install
 ```
 
 
-## Run app
-
-### Development
+## Usage
 
   * copy `.env.example` to `.env`. Edit `.env`
 
   * run `yarn start` to start the app
+
+
+## License
+
+[BSD-3-Clause](LICENSE)
